@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CRUD-Operations-Using-React/static/css/main.c6e5050d.css",
+    "main.js": "/CRUD-Operations-Using-React/static/js/main.3b833c4c.js",
+    "index.html": "/CRUD-Operations-Using-React/index.html",
+    "main.c6e5050d.css.map": "/CRUD-Operations-Using-React/static/css/main.c6e5050d.css.map",
+    "main.3b833c4c.js.map": "/CRUD-Operations-Using-React/static/js/main.3b833c4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6e5050d.css",
+    "static/js/main.3b833c4c.js"
+  ]
+}
