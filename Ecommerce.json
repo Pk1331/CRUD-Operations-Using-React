@@ -1,0 +1,32 @@
+{
+  "Products": [
+    {
+      "id": "14c0",
+      "name": "Acer Aspire 7",
+      "price": "49990",
+      "image": "blob:http://localhost:3001/0a05756c-b736-49d8-ac19-1d8eb42e601d",
+      "category": "Laptops"
+    },
+    {
+      "id": "8f3b",
+      "name": "Samsung Galaxy A15 5G",
+      "price": "17999",
+      "image": "blob:http://localhost:3001/48472d7e-13c2-4ee6-9162-8d185701638b",
+      "category": "Mobiles"
+    },
+    {
+      "name": "Apple iPhone 12",
+      "price": "38499",
+      "image": "blob:http://localhost:3001/205afad8-eaf3-47a4-acaf-6cf79723207b",
+      "category": "Mobiles",
+      "id": "67ab"
+    },
+    {
+      "id": "cc0b",
+      "name": "Motorola EnvisionX",
+      "price": "24499",
+      "image": "blob:http://localhost:3001/c8838fcb-bb6d-4775-892c-fe5ded7f1d0e",
+      "category": "Televisions"
+    }
+  ]
+}
