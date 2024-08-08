@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# CRUD Operations with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple CRUD (Create, Read, Update, Delete) application built using React. The application allows you to manage a list of products with fields such as name, price, image, and category. The data is stored in a local JSON server.
 
-## Available Scripts
+## Live Demo
+  
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add a Product:** Fill out the form with the product's details to add a new product to the list.
+- **Edit a Product:** Update the details of an existing product by clicking the "Edit" button.
+- **Delete a Product:** Remove a product from the list by clicking the "Delete" button.
+- **View Products:** All products are displayed in a table format with their corresponding details, including an image preview.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is organized into several key components:
 
-### `npm test`
+- **`App.js`:** The main component that manages the state and renders the `Table` and `Form` components.
+- **`Table.js`:** A component that displays the list of products in a table format with operations for editing and deleting.
+- **`Form.js`:** A component that handles the creation and editing of products. Includes validation and file handling for images.
+- **`API.js`:** Contains functions for making HTTP requests to the JSON server (get, post, put, delete).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Folder Structure
 
-### `npm run build`
+```plaintext
+.
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   ├── App.js
+│   │   ├── Table.js
+│   │   ├── Form.js
+│   │   └── API.js
+│   ├── index.js
+│   ├── index.css
+│   └── App.css
+├── package.json
+└── README.md
+```
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js:** Ensure that Node.js is installed on your machine.
+- **npm or yarn:** Node Package Manager is required to install dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- **Add Product:** Click on the "Add Product" button, fill in the product details, and submit the form.
+- **Edit Product:** Click the "Edit" button next to a product in the table, update the form, and submit.
+- **Delete Product:** Click the "Delete" button next to a product in the table.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React.js:** A JavaScript library for building user interfaces.
+- **Axios:** Promise-based HTTP client for the browser and Node.js.
+- **Bootstrap:** CSS framework for developing responsive and mobile-first websites.
+- **JSON Server:** Provides a simple API for your application using a JSON file as a database.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Styling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application uses Bootstrap for basic styling. Custom styles are added in `App.css` to enhance the UI, especially for the form overlay and table.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions or feedback, please feel free to reach out at [andepavan37@gmail.com](mailto:andepavan37@gmail.com).
 
-### Code Splitting
+## Install dependencies:
+```bash
+npm install (boostrap,axios,json-server)
+```
+## Start the JSON server:
+Ensure you have json-server installed globally or as a dev dependency: 
+```bash
+npm install -g json-server
+json-server --watch products.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
