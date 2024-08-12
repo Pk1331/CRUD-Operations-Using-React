@@ -3,7 +3,10 @@
 This project is a simple CRUD (Create, Read, Update, Delete) application built using React. The application allows you to manage a list of products with fields such as name, price, image, and category. The data is stored in a local JSON server.
 
 ## Live Demo
-      https://pk1331.github.io/CRUD-Operations-Using-React/
+You can view live demo for application [here](https://pk1331.github.io/CRUD-Operations-Using-React/)
+
+![CRUD_operations](https://github.com/user-attachments/assets/58a9ef96-aff8-4faf-82c0-3ebce086b4b4)
+
 ## Features
 
 - **Add a Product:** Fill out the form with the product's details to add a new product to the list.
